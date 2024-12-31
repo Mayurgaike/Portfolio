@@ -1,0 +1,49 @@
+.about-section {
+  text-align: justify;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  border-radius: 30px;
+  width: 40%;
+  margin-left: 30%;
+  padding-top: 5px;
+}
+
+/* Paragraph styling */
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(76, 73, 73);
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .about-section h2 {
+    font-size: 32px; /* Smaller font size for mobile */
+    width: 80%; /* Increase width for better fit */
+    margin-left: 10%; /* Center the title better on smaller screens */
+    padding: 10px; /* Add padding around the title */
+  }
+
+  .about-section p {
+    font-size: 1rem; /* Smaller font size for mobile */
+    padding-left: 10px;
+    padding-right: 10px; /* Add some padding for readability */
+    max-width: 100%; /* Allow the text to take the full width */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Add padding to the section for better spacing */
+  .about-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
